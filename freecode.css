@@ -1,0 +1,114 @@
+/********************** 
+color palette: 
+
+dark-blue: #69D2E7;
+light-blue: #A7DBD8;
+gray: #E0E4CC;
+light-orange: #F38630;
+dark-orange: #FA6900;
+
+**********************/
+
+/* general layout */
+body {
+  background-color: #A7DBD8;
+}
+
+.container {
+  position: flex;
+  width: 550px;
+  height: 180px;
+  background-color: transparent;
+  margin: 10% auto;
+  padding-top: 25px;
+  margin-bottom: 0px;
+}
+
+.content {
+  position: relative;
+  width: 550px;
+  margin: 50px auto;
+}
+
+#results {
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+#results li {
+  display: block;
+  list-style-type: none;
+}
+
+#results a {
+  text-decoration: none;
+  color: #FA6900;
+} 
+
+#results p {
+  margin-top: 5px;
+}
+
+/* buttons layout */
+
+.buttons {
+  color: #323232;
+  text-align: center;
+  font-size: 1.2em; /* 1.2em = 19.5px  */
+}
+
+.random-btn:focus,
+.search-btn:focus,
+.user-input:focus {
+  outline: none;
+}
+
+/* i chose to put the items on a block for better results on layout */
+.random-block, .search-block {
+  margin: 25px 0 25px 0;
+}
+
+.random-btn {
+  margin: 25px 0 25px 0;
+  text-decoration: none;
+  color: #323232;
+}
+
+.search-btn {
+  color: #FA6900;
+  position: relative;
+  margin-left: 10px;
+}
+
+.fa-search:before {
+   margin-top: 50px;
+}
+
+
+.user-input {
+  background-color: transparent;
+  border: 3px solid #FA6900;
+  border-radius: 15px;
+  color: #FA6900;
+  height: 35px;
+  width: 195px;
+  margin-left: 5px;
+  font-size: 1em;
+}
+
+/* footer layout */
+
+.made {
+  text-align: center;
+  position: relative;
+  color: #fff;
+}
+
+#mari, #mari:hover {
+  text-decoration: none;
+  color: #323232;
+}
+
+.fa-heart {
+  color: pink;
+}
